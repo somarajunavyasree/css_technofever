@@ -1,0 +1,36 @@
+*, *::before,
+*::after{
+    margin : 0;
+    padding : 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    font-size: 62.5%;
+
+    @media only screen and(max-width : 800px)
+    {
+        font-size : 50%;
+    }
+    @media only screen and(min-width : 300px) and (max-width : 800px)
+    {
+        font-size : 40%;
+    }
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    // grid-template-rows: repeat(10,auto-fit);
+    width : 100%;
+    background-color: white;
+}
+
+body{
+   width : 100%; 
+//    background-color: orangered;
+}
+

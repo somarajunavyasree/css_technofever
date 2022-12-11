@@ -1,0 +1,94 @@
+.collaboration{
+    // background-color: yellow;
+    grid-column: 1/-1;
+
+    background-image: url(../img/collabbg.png);
+    width : 100%;
+    // height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+    .contenthead{
+        color:#FFFFFF;
+        // color: black;
+        font-weight: 800;
+        font-size: 4.8rem;
+        line-height: 6rem;
+        text-align: center;
+        margin-top : 11.1rem;
+        width : 70%;
+        // height : 12rem;
+        margin-bottom : 1.5rem;
+
+        @media only screen and(max-width : 300px) {
+            font-size:3rem;
+            line-height: 4rem;
+        }
+    }
+
+    .contentpara
+    {
+        font-weight : 700;
+        font-size : 1.8rem;
+        line-height: 163.15%;
+        width : 60%;
+        // height : 6.2px;
+        color : #FFFFFF;
+        // color: black;
+        text-align: center;
+        margin-bottom: 4.8rem;
+    }
+
+}
+
+.contents
+{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    // margin : 3.8rem 0;
+    // margin-bottom :5.3rem;
+    
+    
+}
+
+.contentbtns{
+    display: flex;
+    @media only screen and(max-width : 300px) {
+        flex-direction: column;
+        align-items: center;
+        gap : .5rem;
+        justify-content: center;
+    }
+     width : 80%;
+    justify-content: center;
+    .email-btn{
+         border: 2px solid rgba(187, 200, 212, 1);
+         background: #FFFFFF;
+         border-radius : 4px;
+         width : 32rem;
+        // width : 150%;
+         height: 5.6rem;
+    }
+    .contentbtn{
+        color : #FFFFFF;
+        background: #F64C72;
+        border-radius: 4px;
+        width : 16.5rem;
+        // width : 60%;
+        height: 5.6rem;
+        margin-bottom: 11.1rem;
+    }
+}
+
+.btn{
+    border-radius: 0;
+    // width : 10rem;
+    background-color: #F64C72;
+   border: none;
+   color : white;
+}
+
