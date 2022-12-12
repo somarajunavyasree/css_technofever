@@ -25,7 +25,8 @@
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    gap: 4rem; }
     .header__list li {
       margin-right: 5%;
       font-size: 2rem;
@@ -35,6 +36,8 @@
       @media only screen and (max-width: 300px) {
         .header__list li {
           margin: 2%; } }
+      .header__list li a {
+        text-decoration: none; }
 
 *, *::before,
 *::after {
