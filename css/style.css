@@ -153,7 +153,7 @@ body {
     margin-bottom: 5.8rem; }
   .about .paracont {
     border-bottom: 1px solid #553d67;
-    z-index: 5;
+    z-index: 0;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -180,7 +180,9 @@ body {
     margin-top: 3.8rem;
     width: 100%;
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    z-index: 20;
+    transform: translateY(-6rem); }
     .aboutcontent .things .thing {
       display: flex;
       position: relative;
@@ -537,7 +539,8 @@ body {
   padding-bottom: 4.6rem; }
   @media only screen and (max-width: 300px) {
     .review {
-      padding: 1rem; } }
+      padding: 1rem;
+      width: 100%; } }
   .review .reviewp {
     width: 27rem;
     font-weight: 400;
@@ -564,7 +567,7 @@ body {
       display: inline-block;
       color: #6D7D8B; }
   .review__stars {
-    margin-top: 8.4rem;
+    margin-top: 3rem;
     margin-bottom: 3.0; }
 
 .nextre {
